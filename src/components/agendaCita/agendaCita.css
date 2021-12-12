@@ -1,0 +1,27 @@
+.contenedor-general-agenda{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.contenedor-agenda{
+
+  
+    padding-top: 3%;
+
+}
+
+.calendarioContenedor{
+    padding-bottom: 5%;
+}
+
+.select-doctor{
+    width: 50%;
+     height: 42px;
+     margin-top: 1%;
+     padding-left: 5%;
+     background: #ffffff;
+     border-radius: 5px;
+     border: 0;
+     box-shadow: -3px -3px 7px #e8e6e6b2, 3px 3px 5px rgba(191, 193, 196, 0.945);
+}
