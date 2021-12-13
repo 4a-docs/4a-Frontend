@@ -1,0 +1,46 @@
+.footer{
+    background-color: #31D2F2;
+    height: 45px;
+    width: 100vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    padding-top: 10px;
+    color: #DFE4EA;
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    
+}
+
+.icons img{
+    padding-right: 3%;
+ 
+}
+
+
+@media only screen and (max-width: 420px) {
+    .icons {
+      display: none;
+    }
+}
